@@ -1,0 +1,39 @@
+html { font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif; }
+body {
+    text-align: center;
+    background-color: linen;
+    font-size: 2em;
+}
+#img-div {
+    background-color: white;
+    margin: 4%;
+    border-radius: 2em;
+    
+}
+#image {max-width: 100%;
+
+}
+#img-caption { font-size: 0.8em; }
+
+ul {
+    text-align: center;
+}
+li {
+    text-align: left;
+    margin-left: 10em;
+    line-height: 2em;
+}
+#cite {max-width: 50em;
+      text-align: center;
+       margin-left: 15%;}
+#tribute-link {
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    ul {
+        line-height: 1.5em;
+        max-width: 20em;
+        margin-left: 5em;
+    }
+}
